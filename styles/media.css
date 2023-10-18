@@ -1,0 +1,316 @@
+
+@media screen and (max-width: 1024px){
+    .header_banner{
+        background-position: top;
+        height: 1100px;
+    }
+
+    .header_banner.active0{
+        background-image: url(../images/original.jfif);
+    }
+    .header_banner.active1{
+        background-image: url(../images/original\ \(1\).jfif);
+    }
+    .header_banner.active2{
+        background-image: url(../images/original\ \(2\).jfif);
+    }
+    .header_banner.active3{
+        background-image: url(../images/original\ \(3\).jfif);
+    }
+
+    .header_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        padding: 400px 0 0;
+    }
+
+    .header_content > h1{
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+
+    .banner_ctrls{
+        margin-top: 40px;
+    }
+
+    main .container1_title{
+        font-size: 28px;
+    }
+
+    .main_container2 > li > h2{
+        font-size: 24px;
+        letter-spacing: 0;
+    } 
+
+    .main_container2 > li > div{
+        font-size: 16px;
+    } 
+
+    .main_container3 > .content:nth-child(2) > h1{
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+
+    .main_container3 > .content:nth-child(2) > div{
+        font-size: 16px;
+    }
+
+    .main_container5 > h1{
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+
+    .main_container5 > p{
+        font-size: 16px;
+    }
+
+    .main_container5 > .contents h1{
+        font-size: 24px;
+    }
+
+    .question > h1{
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+
+    .question > .question_container > .title > h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .question > .question_container > .content{
+        font-size: 14px;
+    }
+}
+
+
+/* =============================== 750px =============================== */
+
+
+@media screen and (max-width: 750px){  
+    .header_banner.active0{
+        background-image: url(../images/original\ \(9\).jfif);
+    }
+    .header_banner.active1{
+        background-image: url(../images/original\ \(11\).jfif);
+    }
+    .header_banner.active2{
+        background-image: url(../images/original\ \(8\).jfif);
+    }
+    .header_banner.active3{
+        background-image: url(../images/original\ \(10\).jfif);
+    }
+    
+    .fixed_header{
+        padding: 10px 20px 10px 30px;
+    }
+    
+    .fixed_header > img{
+        width: 60px;
+    }
+
+    .join{
+        width: 95px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .login > a{
+        width: 65px;
+        height: 38px;
+        border-radius: 3px;
+        line-height: 38px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .header_content > h1 > img{
+        width: 120px;
+    }
+
+    .header_content > h1{
+        font-size: 26px;
+    }
+
+    .header_content > ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .header_content > ul > li{
+        margin: auto;
+        width: 100%;
+    }
+
+    .header_content > ul > li > div:nth-child(1){
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .header_content > ul > li > div:nth-child(2){
+        width: 90%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .header_content > div{
+        width: 90%;
+        font-size: 14px;
+        max-width: 500px;
+    }
+
+    .header_content{
+        position: relative;
+    }
+
+    .banner_ctrls{
+        position: absolute;
+        display: flex;
+        width: 200px;
+        transform: rotate(90deg);
+        top: 170px;
+        right: -70px;
+    }
+
+    .banner_bars > .bar > span{
+        box-shadow: 
+        0 0 5px black,
+        0 0 5px black,
+        0 0 5px black;
+        height: 6px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
+    .banner_bars .bar span.active,
+    .banner_bars .bar:hover > span{
+        box-shadow: 
+        0 0 5px silver,
+        0 0 5px silver,
+        0 0 5px silver;
+        height: 6px;
+        opacity: 0.9;
+        background-color: black;
+    }
+
+    .banner_ctrls > .ctrl{
+        font-size: 25px;
+        margin-left: 20px;
+        transform: rotate(-90deg);
+        transform-origin: center;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    .bars_content{
+        position: absolute;
+        top: 45px;
+        text-align: left;
+        padding: 20px;
+        font-weight: bold;
+        text-shadow: 
+        0 0 5px black,
+        0 0 5px black,
+        0 0 5px black;
+    }
+
+    main .container1_title{
+        font-size: 24px;
+    }
+
+    .main_container1{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .main_container1 > .content{
+        grid-column: span 2;
+    }
+
+    .main_container1 > .content:nth-last-child(1){
+        grid-column: 2/4;
+    }
+
+    .main_container2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_container2 > li{
+        width: auto;
+    }
+
+    .main_container2 > .bar{
+        font-size: 0;
+        width: 150px;
+        height: 1px;
+        background-color: white;
+        transform: none;
+        opacity: 0.8;
+    }
+
+    .main_container2 > li > h2{
+        font-size: 22px;
+    }
+
+    .main_container3{
+        flex-direction: column-reverse;
+    }
+
+    .main_container3 > .content{
+        width: 100%;
+    }
+
+    .main_container3 > .content:nth-child(2){
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main_container3 > .content:nth-child(2) > h1{
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+
+    .question > .question_container > .title > h2{
+        font-size: 16px;
+    }
+
+    .question > .question_container > .content{
+        font-size: 12px;
+    }
+
+    .main_container3 > .content:nth-child(2) > div{
+        font-size: 15px;
+        margin-top: 20px;
+        opacity: 0.8;
+    }
+
+    .main_container3 > .content > img{
+        margin-top: 20px;
+    }
+
+    main > div.container4_title{
+        font-size: 16px;
+    }
+
+    .main_container5 > h1{
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
+
+    .main_container5 > p{
+        font-size: 16px;
+    }
+
+    .main_container5 > .contents{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}

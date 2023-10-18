@@ -1,0 +1,42 @@
+/*  reset.css 제작해보세요. */
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-size: 12px;
+    /* font-family: ; */
+    color:#333;
+}
+
+.clearfix::after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+    flex layout을 정확히 사용하지 못한다면 
+    멘토 : 그날짜에 해당하는 링크 부탁해서 듣기
+*/
